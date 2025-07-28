@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic web page with accessibility and SEO</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to my web page</h1>
+        <p>I,m learning about software engineering on PLP</p>
+
+    </header>
+    <nav aria-label="Main Navigation">
+        <ul>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about" aria-labelledby="about-heading">
+            <h2 id="about-heading"> Abou this page</h2>
+            <p>This is my first web development page built entirely with html 5 semantic elements</p>
+        </section>
+
+        <article aria-labelledby="article1-title">
+            <h3 id="article1-title">Understanding Semantic HTML5</h3>
+            <p>Semantic HTML5 helps create more meaningful code, making it easier for screen readers and search engines to interpret your content.</p>
+          </article>
+
+        <section id="contact" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contact</h2>
+            <p>For questions or feedback, feel free to <a href="renard:webdev@gmail.com"> email me</a></p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Renard Owiti. All rights reserved.</p>
+      </footer>
+    
+</body>
+</html>
